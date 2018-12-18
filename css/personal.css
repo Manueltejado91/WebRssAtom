@@ -1,0 +1,272 @@
+/* Tamaño del icono de la página con un ancho de 60 píxeles*/
+.icono{
+    width:60px;
+}
+
+/* margen total del título de la web*/
+.fuente{
+  margin: auto;
+}
+
+.margen{
+  margin-top: 40px;
+  
+  width: 100%;
+}
+
+/* imagen autora*/
+.margen2{
+  margin-top: 40px;
+  
+  width: 50%;
+}
+        
+/* cambiar tipo de letra */
+.cambialetra {
+    font-family: /*"Helvetica Neue", Helvetica, Arial, */sans-serifs ;
+}
+
+/* cambiar tipo de letra */
+.cambialetra2 {
+  font-family: "Helvetica Neue"; /*Helvetica, Arial, sans-serifs ;*/
+}
+
+/* cambiar el color de fondo a la barra */
+.cambiacolor {
+  /* La sintaxis vieja, obsoleta, pero todavía necesaria, con prefijo, para Opera y navegadores basados en WebKit-based */
+background: -prefix-linear-gradient(top, blue, white); 
+
+/* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+background: linear-gradient(to bottom, blue, white);
+}
+
+
+.fondo{
+  background: "imagen/piedra.jpg"
+}
+
+/*posición ajustada*/
+.atBottom{
+  position: absolute;
+  bottom:0;
+}
+
+/* tamaño máximo de los cards*/
+.mycard{
+  max-width:100px;
+  max-height:100px;
+}
+
+/* cambiar la forma del cursor en la página */
+body {
+
+  cursor:url("../imagen/varita.cur")20 20,grab;
+}
+
+/* cambiar la forma del cursor en la página */
+a {
+  cursor:url("../imagen/varita.cur")20 20,grab;
+  }
+
+  /* cambiar la forma del cursor en la página */
+button {
+  cursor:url("../imagen/varita.cur")20 20,grab;
+  }
+
+  /* cambiar la forma del cursor en la página */
+input {
+  cursor:url("../imagen/varita.cur")20 20,grab;
+  }
+
+  audio {
+    margin-right: 20px;
+    cursor:url("../imagen/varita.cur")20 20,grab;
+  }
+
+  /* Tamaño de la foto de la autora*/
+.icono2{
+  max-width:200px;
+  width: 100%;
+}
+
+/* biografía autora 
+.letra {
+  margin-left: 250px;
+}
+
+/* cambia letra de los cards */
+.letra2{ 
+    font: italic normal 400 16px/22px Arial, Verdana, Sans-serif;
+    color: #fff !important
+}
+
+.cambiacolor1 {
+   /* La sintaxis vieja, obsoleta, pero todavía necesaria, con prefijo, para Opera y navegadores basados en WebKit-based */
+background: -prefix-linear-gradient(top, rgb(251, 255, 0), rgba(255, 255, 255, 0.719)); 
+
+/* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+background: linear-gradient(to bottom, rgb(255, 238, 0), white);
+}
+
+.cambiacolor2 {
+   /* La sintaxis vieja, obsoleta, pero todavía necesaria, con prefijo, para Opera y navegadores basados en WebKit-based */
+background: -prefix-linear-gradient(top, rgba(0, 255, 42, 0.336), rgba(255, 255, 255, 0.986)); 
+
+/* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+background: linear-gradient(to bottom, rgb(0, 255, 55), rgba(255, 255, 255, 0.356));
+}
+
+.cambiacolor3 {
+     /* La sintaxis vieja, obsoleta, pero todavía necesaria, con prefijo, para Opera y navegadores basados en WebKit-based */
+background: -prefix-linear-gradient(top, rgb(255, 123, 0), rgba(255, 255, 255, 0.719)); 
+
+/* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+background: linear-gradient(to bottom, rgb(255, 123, 0), white);
+}
+
+.tamano{
+  width:400px;
+}
+
+.cambiacolor4 {
+     /* La sintaxis vieja, obsoleta, pero todavía necesaria, con prefijo, para Opera y navegadores basados en WebKit-based */
+background: -prefix-linear-gradient(top, rgb(183, 0, 255), rgba(255, 255, 255, 0.719)); 
+
+/* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+background: linear-gradient(to bottom, rgb(162, 0, 255), white);
+}
+
+.cambiacolor5 {
+    /* La sintaxis vieja, obsoleta, pero todavía necesaria, con prefijo, para Opera y navegadores basados en WebKit-based */
+background: -prefix-linear-gradient(top, rgba(102, 102, 102, 0.377), rgba(255, 255, 255, 0.719)); 
+
+/* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+background: linear-gradient(to bottom, rgb(80, 79, 75), white);
+}
+
+.cambiacolor6 {
+     /* La sintaxis vieja, obsoleta, pero todavía necesaria, con prefijo, para Opera y navegadores basados en WebKit-based */
+background: -prefix-linear-gradient(top, rgb(10, 10, 8), rgba(255, 255, 255, 0.719)); 
+
+/* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+background: linear-gradient(to bottom, rgb(15, 15, 5), white);
+}
+
+.cambiacolor7 {
+  background-color: rgb(209, 208, 211);
+}
+
+
+a .hover :hover{
+  color:#FFFF;
+}
+/*imagen de fondo inicio*/
+/*body {
+  background-image: url("../imagen/fondo3.png");
+ background-color: #ffffff;
+}*/
+ /*Video insertado con responsive*/
+ .video-responsive {
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+  }
+  
+  .video-responsive iframe,
+  .video-responsive object,
+  .video-responsive embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+  /*Letra textos*/
+  @font-face {
+    font-family: "Mystery Quest";
+    src: url("mystery-quest.woff2");
+  }
+  
+  p {
+    font-family: "Mystery Quest", cursive;
+    font-size: 100%;
+  }
+
+  .letra3{
+
+  }
+
+  .icono3{
+    width:15px;
+}
+
+/* estilo caja de comentarios*/
+#comments { width:96%;
+  height:90px;
+  padding:2%;
+  font:1.4em/1.6em cursive;
+  background-color:
+gold;color:rgb(17, 17, 17);
+
+}
+
+/* estilo caja de comentarios*/
+#comments1 { width:96%;
+  height:90px;
+  padding:2%;
+  font:1.4em/1.6em cursive;
+  background-color:
+  rgb(51, 126, 16);color:rgb(17, 17, 17);
+
+}
+
+/* estilo caja de comentarios*/
+#comments3 {
+  width:96%;
+  height:90px;
+  padding:2%;
+  font:1.4em/1.6em cursive;
+  background-color:
+  rgb(167, 70, 197);color:rgb(17, 17, 17);
+}
+
+/* estilo caja de comentarios*/
+#comments4{
+  width:96%;
+  height:90px;
+  padding:2%;
+  font:1.4em/1.6em cursive;
+  background-color:
+  rgb(129, 129, 127);color:rgb(17, 17, 17);
+}
+
+/* estilo caja de comentarios*/
+#comments5{
+  width:96%;
+  height:90px;
+  padding:2%;
+  font:1.4em/1.6em cursive;
+  background-color:
+  rgb(7, 7, 7);color:rgb(255, 255, 255);
+}
+
+/* estilo caja de comentarios*/
+#comments6{
+  width:96%;
+  height:90px;
+  padding:2%;
+  font:1.4em/1.6em cursive;
+  background-color:
+  rgb(255, 253, 253);color:rgb(3, 3, 3); 
+}
+
+/* estilo caja de comentarios*/
+#comments2 { width:96%;
+  height:90px;
+  padding:2%;
+  font:1.4em/1.6em cursive;
+  background-color:
+  rgb(230, 152, 8);color:rgb(17, 17, 17);

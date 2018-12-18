@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<rss version="2.0">
+
+<!--Canal del tiempo 24 horas-->
+
+<channel>
+<title>El tiempo</title>
+<link>https://www.tiempo.es/</link>
+<description>Web que permite consultar el tiempo en toda España a diario</description>
+<language>es</language>
+
+<!--Ítems del canal: tiempo en Sevilla y tiempo en todo el mundo-->
+
+<item>
+<title>Tiempo en Sevilla</title>
+<link>https://www.tiempo.es/sevilla-es2510910.html</link>
+<description>Apartado de la web que muestra el tiempo en Sevilla</description>
+</item>
+
+<item>
+<title>Tiempo en el resto del mundo</title>
+<link>https://www.tiempo.es/mundo/</link>
+<description>Apartado de la web que muestra el tiempo en cualquier parte del mundo</description>
+</item>
+</channel>
+</rss>
